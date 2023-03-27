@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px #888888;
+    position: relative;
+    margin: 20px 0;
+    padding: 50px;
+    flex-direction: column;
+}
+
+.bookList {
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px #888888;
+    flex-direction: column;
+}
+
+.bookList h3{
+    
+}
+
+form label{
+    position: absolute;
+    font-size: 16px;
+    padding: 0 5px;
+    pointer-events: none;
+}
+
+form input{
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    padding: 0 10px;
+    background: transparent;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.error p{
+    color: red;
+}
+.error p::before {
+    font-size: 25px;
+    margin-left: 20px ;
+    display: inline;
+    content: "⚠";
+}
+
+h1{
+    text-align: center;
+    font-weight: 600;
+    margin: 20px;
+}

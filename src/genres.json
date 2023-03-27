@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Fantasy",
+    "value": 1
+  },
+  {
+    "name": "Sci-fi",
+    "value": 2
+  },
+  {
+    "name": "Non-fiction",
+    "value": 3
+  },
+  {
+    "name": "Adventure",
+    "value": 4
+  },
+  {
+    "name": "Horror",
+    "value": 5
+  },
+  {
+    "name": "Thriller",
+    "value": 6
+  },
+  {
+    "name": "Detective",
+    "value": 7
+  },
+  {
+    "name": "Romance",
+    "value": 8
+  },
+  {
+    "name": "Graphic Novel",
+    "value": 9
+  },
+  {
+    "name": "Young Adult",
+    "value": 10
+  },
+  {
+    "name": "Children Literature",
+    "value": 11
+  }
+]
