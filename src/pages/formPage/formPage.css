@@ -10,7 +10,7 @@ body{
     align-items: center;
     flex-direction: column;
 }
-form{
+.createForm{
     border-radius: 25px;
     box-shadow: 5px 5px 5px 5px #888888;
     position: relative;
@@ -19,24 +19,14 @@ form{
     flex-direction: column;
 }
 
-.bookList {
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px 5px #888888;
-    flex-direction: column;
-}
-
-.bookList h3{
-    
-}
-
-form label{
+.createForm label{
     position: absolute;
     font-size: 16px;
     padding: 0 5px;
     pointer-events: none;
 }
 
-form input{
+.createForm input{
     width: 320px;
     height: 40px;
     font-size: 16px;
